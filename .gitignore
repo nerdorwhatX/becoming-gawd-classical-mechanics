@@ -1,0 +1,22 @@
+# OS metadata and cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# Temporary files
+*.tmp
+*.log

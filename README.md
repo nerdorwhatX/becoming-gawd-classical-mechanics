@@ -29,6 +29,7 @@ Welcome to the definitive self-study curriculum, pedagogical library, and refere
    * [09. Elite Problem Archives & Olympiads](#09-elite-problem-archives--olympiads)
    * [10. Mathematics for Modern Mechanics](#10-mathematics-for-modern-mechanics)
    * [11. University Lecture Archives (MIT OCW)](#11-university-lecture-archives-mit-ocw)
+   * [12. Waves, Acoustics, and Wave Mechanics](#12-waves-acoustics-and-wave-mechanics)
 5. [🧩 Problem Solving Progression Guide](#-problem-solving-progression-guide)
 6. [💾 How to Clone & Download (Git LFS)](#-how-to-clone--download-git-lfs)
 
@@ -47,6 +48,7 @@ flowchart TD
     Start -->|"Mathematician wanting rigorous geometry"| Track3["Track 3: The Geometrician<br/>(Spivak → Arnold → Abraham & Marsden)"]
     Start -->|"Olympiad / Competition contestant"| Track4["Track 4: Elite Problem Solver<br/>(Kalda → Morin → Irodov → Physics Cup)"]
     Start -->|"Complex systems & fluid dynamics"| Track5["Track 5: Nonlinear Dynamics & Continua<br/>(Strogatz → ChaosBook → Tong Fluids)"]
+    Start -->|"Wave phenomena, acoustics & solitons"| Track6["Track 6: Waves, Acoustics & Nonlinear Waves<br/>(French / Crawford → Morin → Whitham → Pierce)"]
 ```
 
 ### 🔹 Track 1: The Undergraduate Physics Core (Newtonian to Analytical)
@@ -104,6 +106,19 @@ flowchart TD
 
 ---
 
+### 🔹 Track 6: Waves, Acoustics & Nonlinear Wave Dynamics
+* **Goal**: Master the physics and mathematics of wave motion — from harmonic oscillators, dispersive media, and acoustic radiation to elastic continua, water waves, shocks, solitons, and asymptotic WKB theory.
+* **Primary Reading**:
+  1. [French — Vibrations and Waves](12_Waves_and_Acoustics/01_Core_Wave_Theory/French_Vibrations_and_Waves.djvu) & [Crawford — Waves (Berkeley Vol. 3)](12_Waves_and_Acoustics/01_Core_Wave_Theory/Crawford_Waves_Berkeley_Physics_Course_Vol3.djvu)
+  2. [Georgi — The Physics of Waves](12_Waves_and_Acoustics/01_Core_Wave_Theory/Georgi_The_Physics_of_Waves.pdf) & [Morin — Waves](12_Waves_and_Acoustics/01_Core_Wave_Theory/Morin_Waves.pdf)
+  3. [Whitham — Linear and Nonlinear Waves](12_Waves_and_Acoustics/01_Core_Wave_Theory/Whitham_Linear_and_Nonlinear_Waves.pdf) *(The definitive wave bible)*
+  4. [Pierce — Acoustics: An Introduction to Its Physical Principles](12_Waves_and_Acoustics/02_Acoustics/Pierce_Acoustics_Physical_Principles_and_Applications.pdf) & [Lighthill — Waves in Fluids](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Lighthill_Waves_in_Fluids.pdf)
+  5. [Drazin & Johnson — Solitons: An Introduction](12_Waves_and_Acoustics/04_Nonlinear_Waves_Shocks_and_Solitons/Drazin_Johnson_Solitons_An_Introduction.pdf)
+* **Problem Companion**: Crawford, Morin, Main, and Whitham problem sets paired with Kalda, IPhO, and Physics Cup.
+* **Key Milestones**: Normal modes, Fourier analysis, dispersion relations, phase vs. group velocity, wave impedance, acoustic wave equations, Rayleigh scattering, elastodynamic P & S waves, Korteweg–de Vries (KdV) solitons, Inverse Scattering Transform (IST), method of characteristics, shock formation, and WKB approximations.
+
+---
+
 ## 🗺️ Master 5-Tier Learning Roadmap
 
 ```
@@ -134,12 +149,12 @@ TIER 3: HAMILTONIAN MECHANICS, SYMPLECTIC GEOMETRY & CHAOS
 ══════════════════════════════════════════════════════════════════════════════════════
                                     ▼
 ══════════════════════════════════════════════════════════════════════════════════════
-TIER 4: CONTINUOUS MEDIA, GRAVITATION & RELATIVISTIC FIELDS
-   Hydrodynamics & Navier-Stokes • Stress-Strain & Elasticity • Celestial Perturbations
-   N-body Problem • Relativistic Mechanics & 4-Vectors • Relativistic Action Principles
-   Classical Field Theory & Energy-Momentum Tensors
-   📚 Books: David Tong (Fluids) • Landau & Lifshitz (Vols 2, 6, 7) • Murray & Dermott
-   🧩 Problems: Lightman (Relativity Book) • Newbury (Princeton Problems)
+TIER 4: CONTINUOUS MEDIA, WAVES, ACOUSTICS & RELATIVISTIC FIELDS
+   Hydrodynamics & Navier-Stokes • Linear & Nonlinear Waves • Acoustics & Shocks
+   Stress-Strain & Elastic Waves • KdV Solitons & IST • Celestial Perturbations
+   N-body Problem • Relativistic Mechanics & 4-Vectors • Classical Field Theory
+   📚 Books: Whitham • Crawford • Pierce • Lighthill • David Tong (Fluids) • Landau & Lifshitz (Vols 2, 6, 7)
+   🧩 Problems: Crawford • Morin (Waves) • Main • Whitham • Lightman • Newbury
 ══════════════════════════════════════════════════════════════════════════════════════
                                     ▼
 ══════════════════════════════════════════════════════════════════════════════════════
@@ -182,6 +197,26 @@ TIER 5: ELITE PROBLEM SOLVING & RESEARCH SYNTHESIS
 ### 7. **Cornelius Lanczos — *The Variational Principles of Mechanics***
 * **Why It's Legendary**: A philosophical and conceptual masterpiece. Lanczos explains *why* the variational approach works, d'Alembert's principle, and the deep transition from statics to dynamics.
 * **How to Read**: Read this alongside Goldstein when studying constraints and Hamilton's principle to achieve true conceptual depth.
+
+### 8. **G. B. Whitham — *Linear and Nonlinear Waves***
+* **Why It's Legendary**: The undisputed definitive bible of wave dynamics. Seamlessly unifies linear wave kinematics, dispersion, group velocity, and wave action with nonlinear hyperbolic conservation laws, shocks, the Korteweg–de Vries (KdV) equation, and Whitham modulation theory.
+* **How to Read**: Study Part I (Linear Waves) alongside Crawford, French, or Main, then tackle Part II (Nonlinear Waves) for graduate mathematical physics. Work through Whitham's legendary end-of-chapter problems.
+
+### 9. **Frank S. Crawford, Jr. — *Waves (Berkeley Physics Course, Vol. 3)***
+* **Why It's Legendary**: Renowned for its unparalleled physical intuition, homemade table-top experiments, and comprehensive problem sets bridging discrete coupled oscillators to continuous media and electromagnetic waves.
+* **How to Read**: Solve the problems diligently; Crawford's problems build the strongest intuitive mastery of wave impedance, reflection, transmission, and dispersion in the literature.
+
+### 10. **David Morin — *Waves***
+* **Why It's Legendary**: Filled with Morin's trademark crystalline physical explanations, vivid diagrams, insightful limericks, and extensive fully worked problems spanning coupled oscillations, normal modes, Fourier analysis, dispersion, and 2D waves.
+* **How to Read**: Attempt each problem on a blank sheet for at least 30–45 minutes before consulting solutions. An essential bridge from introductory physics to analytical dynamics.
+
+### 11. **Allan D. Pierce — *Acoustics: An Introduction to Its Physical Principles and Applications***
+* **Why It's Legendary**: The authoritative graduate standard for physical acoustics, sponsored by the Acoustical Society of America. Systematically derives acoustic wave propagation, radiation impedance, spherical waves, and duct acoustics directly from fluid mechanics and thermodynamics.
+* **How to Read**: Study Chapters 1–5 for rigorous foundations of the acoustic wave equation before branching into boundary-value problems, diffraction, and nonlinear acoustic phenomena.
+
+### 12. **James Lighthill — *Waves in Fluids***
+* **Why It's Legendary**: A tour de force by one of the greatest fluid dynamicists of modern times. Thoroughly illuminates acoustic energy flux, sound generation by turbulence, surface gravity waves, and internal waves in stratified fluids.
+* **How to Read**: Read alongside Horace Lamb's *Hydrodynamics* and David Tong's *Fluid Mechanics* notes.
 
 ---
 
@@ -364,6 +399,77 @@ Mathematical machinery essential for analytical and geometric dynamics:
 
 ---
 
+### 12. Waves, Acoustics, and Wave Mechanics
+The definitive master library for linear and nonlinear wave dynamics, physical acoustics, fluid and elastodynamic wave motion, soliton theory, and asymptotic mathematical methods:
+
+#### 12.1 Core Wave Theory
+Foundational vibrations, dispersive wave kinematics, group velocity, and normal mode analysis:
+
+| Book / Resource | Author(s) | Format | Focus & Highlights |
+| :--- | :--- | :--- | :--- |
+| [**Linear and Nonlinear Waves**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Whitham_Linear_and_Nonlinear_Waves.pdf) | G. B. Whitham | PDF (8.5 MB) | The definitive master text; linear dispersion, group velocity, shocks, KdV, and modulation theory |
+| [**Waves (Berkeley Physics Course, Vol. 3)**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Crawford_Waves_Berkeley_Physics_Course_Vol3.djvu) | Frank S. Crawford, Jr. | DJVU (5.9 MB) | Exceptional physical intuition, home experiments, wave impedance, and coupled oscillators |
+| [**The Physics of Waves**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Georgi_The_Physics_of_Waves.pdf) | Howard Georgi | PDF (8.7 MB) | Harvard lecture text; matrix formulation of normal modes, continuous limits, and 2D/3D boundary conditions |
+| [**Waves**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Morin_Waves.pdf) | David Morin | PDF (46.6 MB) | Crystalline physical derivations, coupled modes, dispersion, Fourier analysis, and extensive worked problems |
+| [**Vibrations and Waves**](12_Waves_and_Acoustics/01_Core_Wave_Theory/French_Vibrations_and_Waves.djvu) | A. P. French | DJVU (3.4 MB) | The classic MIT Introductory Physics text; periodic motion, damping, driven oscillations, and wave pulses |
+| [**Vibrations and Waves in Physics (3rd Ed.)**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Main_Vibrations_and_Waves_in_Physics.pdf) | I. G. Main | PDF (0.48 MB) | Rigorous undergraduate progression with outstanding problem sets across mechanical, acoustic, and EM waves |
+| [**Wave Motion**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Billingham_King_Wave_Motion.djvu) | J. Billingham, A. C. King | DJVU (7.3 MB) | Cambridge applied mathematics text on linear waves, acoustics, water waves, and nonlinear wave steepening |
+| [**Wave Propagation in Periodic Structures**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Brillouin_Wave_Propagation_in_Periodic_Structures.djvu) | Léon Brillouin | DJVU (6.0 MB) | Classic Dover treatise on electric lines, crystal lattices, pass-bands, and wave filters |
+| [**Wave Propagation and Group Velocity**](12_Waves_and_Acoustics/01_Core_Wave_Theory/Brillouin_Wave_Propagation_and_Group_Velocity.djvu) | Léon Brillouin | DJVU (9.9 MB) | Foundational monograph on signal velocity, phase velocity, and wave propagation in dispersive absorbing media |
+
+---
+
+#### 12.2 Acoustics
+Physical acoustics, acoustic radiation, duct propagation, and classical sound theory:
+
+| Book / Resource | Author(s) | Format | Focus & Highlights |
+| :--- | :--- | :--- | :--- |
+| [**Acoustics: An Introduction to Its Physical Principles and Applications**](12_Waves_and_Acoustics/02_Acoustics/Pierce_Acoustics_Physical_Principles_and_Applications.pdf) | Allan D. Pierce | PDF (13.0 MB) | Authoritative graduate treatise; fluid acoustics, spherical radiation, duct modes, and diffraction |
+| [**The Theory of Sound (Vol. 1)**](12_Waves_and_Acoustics/02_Acoustics/Rayleigh_Theory_of_Sound_Vol1.pdf) | Lord Rayleigh (J. W. Strutt) | PDF (12.8 MB) | Historic masterpiece on harmonic vibrations, strings, membranes, plates, and Lagrange's method |
+| [**The Theory of Sound (Vol. 2)**](12_Waves_and_Acoustics/02_Acoustics/Rayleigh_Theory_of_Sound_Vol2.pdf) | Lord Rayleigh (J. W. Strutt) | PDF (22.3 MB) | Foundational theory of aerial vibrations, acoustic radiation, diffraction, and resonant cavities |
+| [**Theoretical Acoustics**](12_Waves_and_Acoustics/02_Acoustics/Morse_Ingard_Theoretical_Acoustics.pdf) | P. M. Morse, K. U. Ingard | PDF (0.44 MB) | The standard reference on sound generation, scattering, acoustic waveguides, and moving sound sources |
+
+---
+
+#### 12.3 Elastic and Water Waves
+Elastodynamic continuum waves, free surface gravity/capillary water waves, and stratified mean flows:
+
+| Book / Resource | Author(s) | Format | Focus & Highlights |
+| :--- | :--- | :--- | :--- |
+| [**Waves in Fluids**](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Lighthill_Waves_in_Fluids.pdf) | James Lighthill | PDF (16.9 MB) | Masterwork on acoustic energy, water waves, internal waves, group velocity rays, and wave-flow interaction |
+| [**Wave Motion in Elastic Solids**](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Graff_Wave_Motion_in_Elastic_Solids.pdf) | Karl F. Graff | PDF (23.8 MB) | Exhaustive Dover text on 1D bars, flexural beam waves, 3D elastodynamics, and Rayleigh surface waves |
+| [**Wave Propagation in Elastic Solids**](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Achenbach_Wave_Propagation_in_Elastic_Solids.pdf) | Jan D. Achenbach | PDF (5.96 MB) | Definitive elastodynamics; longitudinal P-waves, shear S-waves, reflection, refraction, and diffraction |
+| [**Hydrodynamics (6th Ed.)**](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Lamb_Hydrodynamics.pdf) | Horace Lamb | PDF (55.2 MB) | The immortal classic encyclopedic treatise on irrotational flow, surface waves, tides, and viscosity |
+| [**A Modern Introduction to the Mathematical Theory of Water Waves**](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Johnson_Modern_Introduction_Mathematical_Theory_Water_Waves.pdf) | R. S. Johnson | PDF (9.6 MB) | Cambridge text on surface gravity waves, shallow-water theory, solitary waves, and asymptotic scaling |
+| [**Waves and Mean Flows (2nd Ed.)**](12_Waves_and_Acoustics/03_Elastic_and_Water_Waves/Buhler_Waves_and_Mean_Flows.pdf) | Oliver Bühler | PDF (2.4 MB) | Modern fluid mechanics of wave-mean flow interactions, generalized Lagrangian mean, and wave pseudomomentum |
+
+---
+
+#### 12.4 Nonlinear Waves, Shocks and Solitons
+Solitary waves, integrable PDEs, gas dynamics, and shock discontinuities:
+
+| Book / Resource | Author(s) | Format | Focus & Highlights |
+| :--- | :--- | :--- | :--- |
+| [**Solitons: An Introduction**](12_Waves_and_Acoustics/04_Nonlinear_Waves_Shocks_and_Solitons/Drazin_Johnson_Solitons_An_Introduction.pdf) | P. G. Drazin, R. S. Johnson | PDF (0.85 MB) | The standard pedagogical introduction to KdV solitons, Lax pairs, Bäcklund transforms, and Hirota's method |
+| [**Solitons and the Inverse Scattering Transform**](12_Waves_and_Acoustics/04_Nonlinear_Waves_Shocks_and_Solitons/Ablowitz_Segur_Solitons_and_Inverse_Scattering_Transform.pdf) | M. J. Ablowitz, H. Segur | PDF (0.82 MB) | SIAM monograph on the IST machinery for KdV, nonlinear Schrödinger (NLS), and sine-Gordon equations |
+| [**Physics of Solitons**](12_Waves_and_Acoustics/04_Nonlinear_Waves_Shocks_and_Solitons/Dauxois_Peyrard_Physics_of_Solitons.pdf) | Thierry Dauxois, Michel Peyrard | PDF (20.4 MB) | Physical manifestations of topological & nontopological solitons in condensed matter, DNA, and optics |
+| [**Supersonic Flow and Shock Waves**](12_Waves_and_Acoustics/04_Nonlinear_Waves_Shocks_and_Solitons/Courant_Friedrichs_Supersonic_Flow_and_Shock_Waves.djvu) | R. Courant, K. O. Friedrichs | DJVU (5.6 MB) | Landmark treatise on hyperbolic systems of conservation laws, Riemann invariants, and shock fronts |
+
+---
+
+#### 12.5 Mathematical Methods for Waves
+Characteristics, Green's functions, asymptotic approximations, and boundary value problems:
+
+| Book / Resource | Author(s) | Format | Focus & Highlights |
+| :--- | :--- | :--- | :--- |
+| [**Advanced Mathematical Methods for Scientists and Engineers**](12_Waves_and_Acoustics/05_Mathematical_Methods_for_Waves/Bender_Orszag_Advanced_Mathematical_Methods_Scientists_Engineers.pdf) | C. M. Bender, S. A. Orszag | PDF (48.8 MB) | The master guide to asymptotic expansions, boundary layer theory, stationary phase, and WKB method |
+| [**Methods of Mathematical Physics (Vol. 2: Partial Differential Equations)**](12_Waves_and_Acoustics/05_Mathematical_Methods_for_Waves/Courant_Hilbert_Methods_of_Mathematical_Physics_Vol2.djvu) | R. Courant, D. Hilbert | DJVU (9.37 MB) | Rigorous theory of characteristics, wave equation propagation, Huygens' principle, and initial-value problems |
+| [**Methods of Theoretical Physics (Part 1)**](12_Waves_and_Acoustics/05_Mathematical_Methods_for_Waves/Morse_Feshbach_Methods_of_Theoretical_Physics_Part1.pdf) | P. M. Morse, H. Feshbach | PDF (49.0 MB) | Encyclopedic handbook; curvilinear coordinate systems, fields, boundary conditions, and Green's functions |
+| [**Methods of Theoretical Physics (Part 2)**](12_Waves_and_Acoustics/05_Mathematical_Methods_for_Waves/Morse_Feshbach_Methods_of_Theoretical_Physics_Part2.pdf) | P. M. Morse, H. Feshbach | PDF (20.6 MB) | Wave propagation, cylindrical & spherical Bessel eigenfunctions, integral equations, and scattering |
+| [**Green's Functions and Boundary Value Problems (3rd Ed.)**](12_Waves_and_Acoustics/05_Mathematical_Methods_for_Waves/Stakgold_Greens_Functions_and_Boundary_Value_Problems.pdf) | I. Stakgold, M. J. Holst | PDF (10.6 MB) | Complete modern formulation of linear differential operators, distributions, and Green's function methods |
+
+---
+
 ## 🧩 Problem Solving Progression Guide
 
 To master physics, you must solve problems. Here is the recommended problem progression by subject topic:
@@ -384,8 +490,22 @@ To master physics, you must solve problems. Here is the recommended problem prog
 │ 10. Hamiltonian & Transforms    │ Goldstein Ch. 8-9 ➔ MIT 8.09 Psets 6-8 ➔ Kotkin Ch. 4  │
 │ 11. Hamilton-Jacobi & Action    │ Goldstein Ch. 10 ➔ Landau Vol 1 Ch. 7 ➔ MIT 8.09 Ch. 7 │
 │ 12. Relativistic Dynamics       │ Morin Ch. 11-13 ➔ Lightman Ch. 1 ➔ Kalda (Relativity)  │
+│ 13. Linear & Dispersive Waves   │ Crawford Ch. 1-4 ➔ Morin Waves Ch. 1-4 ➔ French        │
+│ 14. Acoustics & Fluid Waves     │ Pierce Ch. 1-5 ➔ Lighthill Ch. 1-3 ➔ Main Ch. 7-10     │
+│ 15. Shocks & Solitons           │ Whitham Ch. 2-3, 17 ➔ Drazin & Johnson ➔ Physics Cup   │
 └─────────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
+
+### 🌊 Wave Mechanics & Acoustics Problem Solving Progression
+
+Covering all four difficulty tiers — from foundational coupled oscillators to the pinnacle of theoretical competition and research-level nonlinear analysis:
+
+| Difficulty Tier | Level & Focus | Core Problem Sources & Recommended Sequence | Pedagogical Milestones |
+| :--- | :--- | :--- | :--- |
+| **Tier 1: Foundations** | Introductory to Intermediate Undergraduate | **French** (Oscillations & coupled systems) ➔ **Crawford** (Waves Berkeley Vol. 3, Ch. 1–4) ➔ **Morin** (Waves Ch. 1–3) | Harmonic motion, normal modes of discrete coupled pendula/masses, Fourier series, damping, resonance, and impedance matching. |
+| **Tier 2: Intermediate** | Advanced Undergraduate to Early Graduate | **Crawford** (Ch. 5–8) ➔ **Main** (Vibrations & Waves, Ch. 4–11) ➔ **Morin** (Waves Ch. 4–7) ➔ **Billingham & King** | Continuous strings, longitudinal acoustic waves, dispersion relations, wave packets, phase vs. group velocity, reflection/transmission coefficients. |
+| **Tier 3: Advanced** | Graduate / Mathematical Physics / IPhO | **Whitham** (Linear Waves, Ch. 1–7) ➔ **Pierce** (Acoustics Ch. 1–5) ➔ **Jaan Kalda** (Wave Optics & Mechanics) ➔ **IPhO Past Problems** | Spherical sound waves, 2D/3D wave equations, radiation impedance, wave energy flux, Doppler shifts, internal gravity waves, elastodynamic waves. |
+| **Tier 4: Elite / Research** | Competition Pinnacle & Research Dynamics | **Whitham** (Nonlinear Waves & Shocks, Ch. 8–17) ➔ **Drazin & Johnson** (Solitons) ➔ **Physics Cup** (Elite Wave Problems) ➔ **Ablowitz & Segur** | Method of characteristics, shock wave jump conditions, Korteweg–de Vries (KdV) solitons, Inverse Scattering Transform, modulational instability, WKB asymptotics. |
 
 ---
 
